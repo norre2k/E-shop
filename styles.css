@@ -65,3 +65,11 @@ a:hover{
                 0 0 50px chartreuse,
                 0 0 200px chartreuse
  }
+
+
+.centerimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
