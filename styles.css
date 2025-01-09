@@ -10,6 +10,10 @@ header {
     color: #fff;
     padding: 10px 0;
 }
+.logo {
+    position: absolute;
+    width: 500px;
+}
 
 header nav ul {
     list-style-type: none;
@@ -26,7 +30,6 @@ header nav ul li a {
     text-decoration: none;
     font-size: 18px;
 }
-
 
 header nav ul li a.active {
     font-weight: bold;
@@ -67,21 +70,109 @@ a:hover{
  }
 
 
+.centerimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+    /* Profile */
 
+#profile {
+    font-family: Arial, sans-serif;
+    
+    margin: 100;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.profile-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.profile-container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.profile-container h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+.profile-container p {
+    font-size: 16px;
+    color: #666;
+}
+.profile-container .bio {
+    font-style: italic;
+    color: #555;
+    margin: 15px 0;
+}
+.profile-container .contact-info {
+    margin-top: 15px;
+}
+.profile-container .contact-info a {
+    text-decoration: none;
+    color: #007BFF;
+}
 
+    
 
+/* login */
 
- 
+#login {
+    font-family: Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 100;
+}
 
+.login-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
 
+h2 {
+    margin-bottom: 20px;
+}
 
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+.login-btn:hover {
+    background-color: #45a049;
+}
 
-
-
-
-
-
- 
+.error-message {
+    color: red;
+    font-size: 14px;
+}
