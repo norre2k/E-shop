@@ -8,12 +8,24 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .logo {
-    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 500px;
 }
 
@@ -59,7 +71,7 @@ footer {
 
 a{
     color: black;
-    transition: all 0.4s linear;
+    transition: all 0.2s linear;
 }
 
 a:hover{
@@ -181,9 +193,53 @@ h2 {
 
 
 
+/*seatch rutan*/
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #48e93a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #1f9707;
+}
 
 
+/*Användare*/
+.user-options {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 
+.user-options a {
+    text-decoration: none;
+    color: #edf0f3;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.user-options a:hover {
+    background-color: #2bff00;
+    color: white;
+}
 
 
 
