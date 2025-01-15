@@ -222,7 +222,7 @@ button.next:hover {
 /*All keyboards sidan*/
 .keyboard-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Anpassar antal kolumner automatiskt */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     margin-top: 20px;
 }
